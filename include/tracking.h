@@ -6,6 +6,8 @@
 #ifndef TRACKING_H
 #define TRACKING_H
 
+#define PCL_NO_PRECOMPILE
+
 #include <ros/ros.h>
 #include <nav_msgs/Odometry.h>
 #include <sensor_msgs/Image.h>
